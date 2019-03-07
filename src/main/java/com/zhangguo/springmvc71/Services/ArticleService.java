@@ -1,9 +1,8 @@
 package com.zhangguo.springmvc71.Services;
 
+import com.zhangguo.springmvc71.entities.Article;
 import java.util.ArrayList;
 import java.util.List;
-import com.zhangguo.springmvc71.entities.Article;
-
 /**
  * 文章业务类（模拟）
  *
@@ -26,7 +25,6 @@ public class ArticleService {
 	public List<Article> getArticles() {
 		return articles;
 	}
-	
 	/*
 	 * 获得文章通过文章编号
 	 */
